@@ -1,0 +1,92 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+title {
+    display: none;
+    width: 620px;
+}
+ 
+body{
+    background-color:gainsboro;
+    line-height: 1.5;
+    font-size: 20px;
+    display: block;
+}
+h1{
+    color:black;
+    position: flex;
+    text-align: center;
+    margin-right: 40px;
+    letter-spacing: 5px;
+}
+.imgg{
+    margin-bottom: 2rem;
+    border-radius: 7px;
+    display: block;
+}
+.gistt{
+    color:black;
+    margin-top: 70px ;
+    text-align:center ;
+}
+.gbant{
+    color: azure;
+    margin-top: 70px;
+    text-align: center;
+}
+.timee{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: skyblue;
+    margin-top: 40px;
+    background-color:lightsteelblue;
+    border: 15px solid rgb(195, 117, 117);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 30%;
+    border: 10px solid white;
+    border-radius: 15px;
+    margin-left: 610px;
+    transition: width 1s;
+    transition-timing-function: ease-in;
+}
+.timee:hover{
+  width: 37%
+}
+img{
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 400px;
+    transition: width 1s;
+    transition-timing-function: ease-out; 
+}
+img:hover{
+    width: 450px;
+}
+#days{
+    padding: 10px;
+    color:black;
+}
+#hrs{
+    border-radius: 15px;
+    padding: 10px;
+     color: black;
+}
+#mins{
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+}
+#secs{
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+}
+span{
+    color: white;
+}
